@@ -11,7 +11,7 @@ fn main() {
 	let acq:f64 = 1.0;
 	let sum:f64 = (ta*tq)+(ma*mq)+(ha*hq)+(da*dq)+(acq*aca);
 	let qty:f64 = tq+mq+hq+dq+acq;
-	let average:f64 = sum/qty;
+	let average:f64 = sum/qty	;
 
 	println!("Sum is {}",sum);
 	println!("average is {}",average);
